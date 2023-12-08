@@ -7,7 +7,19 @@ This project is a simple API built with .NET Core and Entity Framework SQLite da
 Before you can run this API, you need to install the following:
 
 - [.NET Core SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli)
+
+## Additional Packages
+
+This project uses the following additional packages:
+
+- Microsoft.EntityFrameworkCore.Design
+- Microsoft.EntityFrameworkCore.Sqlite
+
+You can install these packages using the .NET CLI with the following commands:
+
+```bash
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.2
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 6.0.2
 
 ## Installation
 
