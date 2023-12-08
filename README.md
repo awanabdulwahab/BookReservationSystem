@@ -20,7 +20,7 @@ You can install these packages using the .NET CLI with the following commands:
 ```bash
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.2
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 6.0.2
-
+```
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/awanabdulwahab/BookReservationSystem.git`
